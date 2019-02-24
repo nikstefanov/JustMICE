@@ -1,0 +1,23 @@
+<html>
+<head><title>JustMICE</title>
+</head>
+<body>
+    {{#logged}}
+      <h1>Hello {{ name }}</h1>
+    {{/logged}}
+    <script>function submit(){
+        document.location=("/hotel/show/"+document.getElementsByTagName("input")[0].value)
+    }</script>
+    {{#logged}}
+      <a href="/user/logout">Log out</a></br>
+      <a href="/edit">Edit</a></br>
+    {{/logged}}
+    {{^logged}}
+    <a href="/register">Register</a></br>
+    <a href="/search">Search</a><br/>
+    <a href="/login">Login</a></br>
+    {{/logged}}
+    <a href="/hotel/list">List hotels</a></br>
+    <input type="text" value="ID"><input type="button" value="Find" onclick="submit()">
+</body>
+</html>

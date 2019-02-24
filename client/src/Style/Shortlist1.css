@@ -1,0 +1,92 @@
+:local(.navigation_container){
+  position: absolute;
+  width: 70%;/*1072px;*/
+  height: 56px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+}
+:local(.navigation_marked){
+  position: absolute;
+  width: 30.78%;/*330px*/
+  height: 100%;/*56px*/
+  background-color: #32b6ff;
+}
+:local(.navigation_marked_text){
+  position: absolute;
+  top:30.36%;/*17px;*/
+  left: 40.6%; /*134px;*/
+  width: 19.1%;/*63px*/
+  height: 41%;/*23px*/
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+:local(.navigation_middle){
+  position: absolute;
+  left: 31.4%;/*337px;*/
+  width: 38.7%;/*412px;*/
+  height: 100%;/*56px;*/
+  background-color: #f4f4f4;
+}
+:local(.navigation_middle_text){
+  position: absolute;
+  top: 30.4%;/*17px;*/
+  left: 20.9%;/*86px;*/
+  width: 71.8%;/*296px;*/
+  height: 41%;/*23px;*/
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+:local(.navigation_last_text){
+  position: absolute;
+  top: 30.4%;/*17px;*/
+  left: 78.36%;/*840px;*/
+  width: 16.23%;/*174px;*/
+  height: 41%;/*23px;*/
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+:local(.arrow_right){
+  position: absolute;
+  left: 69.87%;/*749px;*/
+  width: 0px;
+  height: 0px;
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent;
+  border-left: 28px solid #f4f4f4;
+}
+:local(.arrow_right_blue){
+  position: absolute;
+  left: 28.8%;/*309px;*/
+  width: 0px;
+  height: 0px;
+  border-top: 28px solid #f4f4f4;
+  border-bottom: 28px solid #f4f4f4;
+  border-left: 28px solid #32b6ff;
+}
+:local(.navigation){
+  position: absolute;
+  top: 104px;
+  left: 424px;
+}

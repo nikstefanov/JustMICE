@@ -1,0 +1,107 @@
+:local(.head_container){
+  position: relative;
+  background-color: #ffffff;
+  height: 80px;
+  vertical-align: middle;
+  line-height: 80px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+  width: auto;
+  z-index: 5;
+}
+:local(.head_center_container){
+  position: relative;
+  width: 60%;
+  left: 20%;
+}
+:local(.head_event_link){
+  margin-left: 10%;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #42697e;
+}
+:local(.head_offers_link){
+    text-decoration: none !important;
+    margin-left: 6%;
+    display: inline-block;
+}
+:local(.head_shortlist_link){
+    text-decoration: none !important;
+    display: inline-block;
+}
+:local(.head_shortlist_button){
+    position: relative;
+    width: 109px;
+    height: 34px;
+    border-radius: 2px;
+    background-color: #32b6ff;
+    margin-top: 25px;
+}
+:local(.head_shortlist_text){
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  /*margin: 8px 9px 7px 10px;*/
+}
+:local(.head_shortlist_count_container){
+  position: absolute;
+  top: -10px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  background-color: red;
+}
+:local(.head_shortlist_count_text){
+  position: absolute;
+  top: -30px;
+  left: 6px;
+  color: white;
+}
+:local(.head_offers_count_container){
+  position: absolute;
+  top: -10px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  background-color: red;
+  color: white;
+
+  text-align: center;
+}
+:local(.head_offers_count_text){
+  position: absolute;
+  top: -30px;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+:local(.head_offers_text){
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
